@@ -1,8 +1,4 @@
-def factorial(n):
-    if(n > 1):
-        return n * factorial(n - 1)
-    else:
-        return 1
+from math import factorial
 
 def solution(n):
     answer = 0
