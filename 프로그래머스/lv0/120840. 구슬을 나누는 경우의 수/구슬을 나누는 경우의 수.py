@@ -1,4 +1,4 @@
-from math import factorial
+from math import comb
 
 def solution(balls, share):
-    return factorial(balls) / (factorial(balls-share) * factorial(share))
+    return comb(balls, share)
