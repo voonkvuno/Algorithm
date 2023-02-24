@@ -12,7 +12,4 @@ def solution(dots):
     ad = (ax-dx)/(ay-dy)
     bc = (bx-cx)/(by-cy)
     
-    if ab == cd or ac == bd or ad == bc:
-        return 1
-    else:
-        return 0
+    return 1 if ab == cd or ac == bd or ad == bc else 0
