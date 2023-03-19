@@ -5,6 +5,7 @@ def solution(answers):
     submit3 = [3,3,1,1,2,2,4,4,5,5] * 1000
     
     for sub1, sub2, sub3, ans in zip(submit1, submit2, submit3, answers):
+        print("*")
         if sub1 == ans:
             count1 += 1
         if sub2 == ans:
